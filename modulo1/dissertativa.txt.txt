@@ -1,0 +1,12 @@
+A seguir, o algoritmo para calcular a tabuada do 9 de forma dissertativa, seguindo as etapas de entrada, processamento e saída.
+
+1. Entrada:
+Leia o número inteiro (n) que será o multiplicador do 9. Este número deve estar entre 1 e 9 para que o truque da tabuada funcione corretamente.
+
+2. Processamento:
+a. Calcule o dígito da dezena do resultado. Para isso, subtraia 1 do número de entrada (n-1).
+b. Calcule o dígito da unidade do resultado. Para isso, subtraia o número de entrada de 10 (10-n).
+c. Combine os dois dígitos calculados para obter o resultado final. A forma de fazer isso é multiplicar o dígito da dezena por 10 e somar o dígito da unidade.
+
+3. Saída:
+Exiba o resultado final da multiplicação.

@@ -1,0 +1,16 @@
+ALGORITMO TabuadaDoNove
+VARIAVEIS
+    inteiro n, dezena, unidade, resultado
+
+INICIO
+    // 1. Entrada: Ler o número
+    LER n
+
+    // 2. Processamento: Realizar os cálculos
+    dezena = n - 1
+    unidade = 10 - n
+    resultado = (dezena * 10) + unidade
+
+    // 3. Saída: Exibir o resultado
+    IMPRIMIR resultado
+FIM
